@@ -12,6 +12,10 @@ xcuserdata
 *.xcbkptlist
 xcschememanagement.plist
 
+# Ignore AVR binaries
+*.o
+*.elf
+*.hex
 # Ignore SVN
 .svn
 
