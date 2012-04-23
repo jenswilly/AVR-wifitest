@@ -165,7 +165,6 @@ void receiveUdp( const char* buffer )
 	int indx = 0;
 	int indx2 = 0;
 	char host[16];
-	unsigned int port=0;
 	char msg[32];
 	
 	// We get the entire <esc>u<CID><source IP address><space><port><htab><data><esc>E string and we are only interested in source IP and data.
